@@ -3,6 +3,14 @@ import Header from './components/Header';
 import image_001 from './assets/image-001.png'
 import image_002 from './assets/image-002.png'
 import image_003 from './assets/image-003.png'
+import image_004 from './assets/image-004.png'
+import face_000 from './assets/face-000.png'
+import face_001 from './assets/face-001.png'
+import face_002 from './assets/face-002.png'
+import face_003 from './assets/face-003.png'
+import face_004 from './assets/face-004.png'
+import face_005 from './assets/face-005.png'
+
 import { ReactComponent as Button001Icon } from './assets/button-001.svg';
 import { ReactComponent as Button002Icon } from './assets/button-002.svg';
 import { ReactComponent as Button003Icon } from './assets/button-003.svg';
@@ -18,6 +26,19 @@ import { ReactComponent as Product002Icon } from './assets/product-002.svg';
 import { ReactComponent as Product003Icon } from './assets/product-003.svg';
 import { ReactComponent as Product004Icon } from './assets/product-004.svg';
 import { ReactComponent as VectorIcon } from './assets/vector.svg';
+import { ReactComponent as QuoteIcon } from './assets/quote.svg';
+
+import { ReactComponent as ArrowLeftIcon } from './assets/arrow-left.svg';
+import { ReactComponent as ArrowRightIcon } from './assets/arrow-right.svg';
+
+import { ReactComponent as RingsIcon } from './assets/rings.svg';
+
+import { ReactComponent as SocialFacebookIcon } from './assets/social-facebook.svg';
+import { ReactComponent as SocialTwitterIcon } from './assets/social-twitter.svg';
+import { ReactComponent as SocialInstagramIcon } from './assets/social-instagram.svg';
+import { ReactComponent as SocialLinkedinIcon } from './assets/social-linkedin.svg';
+
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -195,7 +216,7 @@ function App() {
             <div className='button'>Yearly</div>
           </div>
           <span>SAVE UP TO 30%</span>
-          <VectorIcon/>
+          <VectorIcon />
         </div>
         <div className='card-line'>
           <div className='card'>
@@ -208,36 +229,236 @@ function App() {
             <div className='items'>
               <div className='item'>
                 <span>Unlimited open order</span>
-                <CheckIcon/>
+                <CheckIcon />
               </div>
               <div className='item'>
                 <span>Unlimited open order</span>
-                <CheckIcon/>
+                <CheckIcon />
               </div>
               <div className='item'>
                 <span>Unlimited open order</span>
-                <CheckIcon/>
+                <CheckIcon />
               </div>
               <div className='item'>
                 <span>Unlimited open order</span>
-                <CrossIcon/>
+                <CrossIcon />
               </div>
               <div className='item'>
                 <span>Unlimited open order</span>
-                <CrossIcon/>
+                <CrossIcon />
               </div>
               <div className='item'>
                 <span>Unlimited open order</span>
-                <CrossIcon/>
+                <CrossIcon />
               </div>
             </div>
             <div className='button'>Get Started</div>
             <span>Enjoy PGMAGIC MULTI, an EA for both beginner and experienced traders.
               This EA works on all brokers and platforms, supporting both mt4 and mt5.</span>
           </div>
-          
+          <div className='card'>
+            <span>PGmagic Free</span>
+            <span>
+              <span>€</span>
+              <span>0</span>
+              <span>/mo</span>
+            </span>
+            <div className='items'>
+              <div className='item'>
+                <span>Unlimited open order</span>
+                <CheckIcon />
+              </div>
+              <div className='item'>
+                <span>Unlimited open order</span>
+                <CheckIcon />
+              </div>
+              <div className='item'>
+                <span>Unlimited open order</span>
+                <CheckIcon />
+              </div>
+              <div className='item'>
+                <span>Unlimited open order</span>
+                <CrossIcon />
+              </div>
+              <div className='item'>
+                <span>Unlimited open order</span>
+                <CrossIcon />
+              </div>
+              <div className='item'>
+                <span>Unlimited open order</span>
+                <CrossIcon />
+              </div>
+            </div>
+            <div className='button'>Get Started</div>
+            <span>Enjoy PGMAGIC MULTI, an EA for both beginner and experienced traders.
+              This EA works on all brokers and platforms, supporting both mt4 and mt5.</span>
+          </div>
+          <div className='card'>
+            <span>PGmagic Free</span>
+            <span>
+              <span>€</span>
+              <span>0</span>
+              <span>/mo</span>
+            </span>
+            <div className='items'>
+              <div className='item'>
+                <span>Unlimited open order</span>
+                <CheckIcon />
+              </div>
+              <div className='item'>
+                <span>Unlimited open order</span>
+                <CheckIcon />
+              </div>
+              <div className='item'>
+                <span>Unlimited open order</span>
+                <CheckIcon />
+              </div>
+              <div className='item'>
+                <span>Unlimited open order</span>
+                <CrossIcon />
+              </div>
+              <div className='item'>
+                <span>Unlimited open order</span>
+                <CrossIcon />
+              </div>
+              <div className='item'>
+                <span>Unlimited open order</span>
+                <CrossIcon />
+              </div>
+            </div>
+            <div className='button'>Get Started</div>
+            <span>Enjoy PGMAGIC MULTI, an EA for both beginner and experienced traders.
+              This EA works on all brokers and platforms, supporting both mt4 and mt5.</span>
+          </div>
+          <div className='card'>
+            <span>PGmagic Free</span>
+            <span>
+              <span>€</span>
+              <span>0</span>
+              <span>/mo</span>
+            </span>
+            <div className='items'>
+              <div className='item'>
+                <span>Unlimited open order</span>
+                <CheckIcon />
+              </div>
+              <div className='item'>
+                <span>Unlimited open order</span>
+                <CheckIcon />
+              </div>
+              <div className='item'>
+                <span>Unlimited open order</span>
+                <CheckIcon />
+              </div>
+              <div className='item'>
+                <span>Unlimited open order</span>
+                <CrossIcon />
+              </div>
+              <div className='item'>
+                <span>Unlimited open order</span>
+                <CrossIcon />
+              </div>
+              <div className='item'>
+                <span>Unlimited open order</span>
+                <CrossIcon />
+              </div>
+            </div>
+            <div className='button'>Get Started</div>
+            <span>Enjoy PGMAGIC MULTI, an EA for both beginner and experienced traders.
+              This EA works on all brokers and platforms, supporting both mt4 and mt5.</span>
+          </div>
         </div>
       </div>
+      <div className='section'>
+        <div className='curve-area'></div>
+        <div className='curve-area'>
+          <div className='left'>
+            <span className='sub-title'>PRICING</span>
+            <span className='title'>Choose your pricing plan</span>
+            <QuoteIcon />
+            <span className='quote'>Mark T.: "O desempenho do EA com commodities superou minhas expectativas. É uma ferramenta valiosa para os diversificadores."</span>
+            <div className='buttons'>
+              <div className='button'><ArrowLeftIcon /></div>
+              <div className='button'><ArrowRightIcon /></div>
+            </div>
+          </div>
+          <div className='right'>
+            <RingsIcon />
+            <img src={face_000} alt="face_000" />
+            <img src={face_001} alt="face_001" />
+            <img src={face_002} alt="face_002" />
+            <img src={face_003} alt="face_003" />
+            <img src={face_004} alt="face_004" />
+            <img src={face_005} alt="face_005" />
+          </div>
+        </div>
+      </div>
+      <div className='section'>
+        <div className='curve-area'></div>
+        <span className='sub-title'>Contact Us</span>
+        <span className='title'>Any question or remarks? Just write us a message!</span>
+        <div className='contact-card'>
+          <div className='left'>
+            <span>I will help you!</span>
+            <img src={image_004} alt="image_004" />
+            <div className='social'>
+              <SocialFacebookIcon />
+              <SocialTwitterIcon />
+              <SocialInstagramIcon />
+              <SocialLinkedinIcon />
+            </div>
+          </div>
+          <div className='right'>
+            <div className='row'>
+              <div className='input-section'>
+                <span>First Name</span>
+                <input />
+              </div>
+              <div className='input-section'>
+                <span>First Name</span>
+                <input />
+              </div>
+            </div>
+            <div className='row'>
+              <div className='input-section'>
+                <span>Email</span>
+                <input />
+              </div>
+              <div className='input-section'>
+                <span>Phone Number</span>
+                <input />
+              </div>
+            </div>
+            <div className='row'>
+              <div className='input-section'>
+                <span>Select Subject?</span>
+                <div className='checkboxes'>
+                  <div className='checkbox'>
+                    <input type='checkbox' />
+                    <span>Robot PGMAGIC</span>
+                  </div>
+                  <div className='checkbox'>
+                    <input type='checkbox' />
+                    <span>Payments</span>
+                  </div>
+                  <div className='checkbox'>
+                    <input type='checkbox' />
+                    <span>Others</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className='row'>
+              <div className='input-section'>
+                <span>Message</span>
+                <input />
+              </div>
+            </div>
+            <div className='button'>Send Message</div>
+          </div>
+        </div>
+      </div>
+      <Footer />
     </div>
   );
 }
