@@ -451,7 +451,7 @@
               font-family: 'Roboto';
               font-style: normal;
               font-weight: 700;
-              font-size: 15.5899px;
+              font-size: 1vw;
               line-height: 130%;
               color: #333333;
             }
@@ -519,7 +519,7 @@
               line-height: 160%;
               text-align: center;
               color: #666666;
-              max-width: 300px;
+              max-width: 20vw;
               margin-top: 10px;
             }
           }
@@ -752,7 +752,7 @@
               font-family: 'Roboto';
               font-style: normal;
               font-weight: 500;
-              font-size: 18px;
+              font-size: 1.5vw;
               line-height: 160%;
               text-align: center;
               color: #000000;
@@ -768,6 +768,7 @@
               .button {
                 padding: 0px 7px 0px 7px;
                 background: #FB724C;
+                cursor: pointer;
               }
             }
           }
@@ -833,7 +834,7 @@
       background-color: white;
       width: 100vw;
       position: relative;
-      height: 50vw;
+      height: calc( 60vw + 40px );
 
       .curve-area {
         width: 100vw;
@@ -869,21 +870,23 @@
             font-family: 'Poppins';
             font-style: normal;
             font-weight: 400;
-            font-size: 18px;
+            font-size: 1vw;
             line-height: 27px;
             color: #C9C9C9;
             text-align: center;
             margin: 0px auto 0px auto;
           }
 
-          img {
-            // width: 500px;
-          }
+          // img {
+          //   // width: 500px;
+          // }
 
           .social {
             padding: 22px 0px 34px 28px;
             gap: 22px;
             justify-content: left;
+            display: flex;
+            flex-direction: row;
           }
         }
 
@@ -893,7 +896,7 @@
           padding: 0px 60px 0px 60px;
           display: flex;
           flex-direction: column;
-          gap: 45px;
+          gap: 3.5vw;
 
           // background-color: #666666;
           .row {
@@ -910,7 +913,7 @@
                 font-family: 'Poppins';
                 font-style: normal;
                 font-weight: 600;
-                font-size: 14px;
+                font-size: 1vw;
                 line-height: 20px;
                 color: #000000;
               }
@@ -923,7 +926,7 @@
                 font-family: 'Poppins';
                 font-style: normal;
                 font-weight: 500;
-                font-size: 14px;
+                font-size: 1vw;
                 line-height: 200%;
                 color: #000000;
 
@@ -957,7 +960,7 @@
               font-family: 'Poppins';
               font-style: normal;
               font-weight: 600;
-              font-size: 14px;
+              font-size: 1vw;
               line-height: 20px;
               color: #000000;
             }
@@ -971,11 +974,11 @@
             font-family: 'Poppins';
             font-style: normal;
             font-weight: 500;
-            font-size: 16px;
+            font-size: 1.2vw;
             line-height: 24px;
             text-align: center;
             color: #FFFFFF;
-            padding: 15px 48px;
+            padding: 1vw 3.5vw;
             cursor: pointer;
             // width: fit-content;
           }
